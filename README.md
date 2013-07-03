@@ -49,7 +49,7 @@ UINavigationController+Transition uses ARC.
 
 # License #
 
-YKTabBarController is available under the MIT License.
+UINavigationController+Transition is available under the MIT License.
 
 Copyright (c) 2013 Yoshiki Kurihara
 
