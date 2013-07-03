@@ -69,8 +69,7 @@
 }
 
 - (void)push {
-    _depth++;
-    SampleViewController *vc = [[SampleViewController alloc] initWithDepth:_depth];
+    SampleViewController *vc = [[SampleViewController alloc] initWithDepth:_depth+1];
     [self.navigationController pushViewController:vc duration:0.3f preparations:^(CALayer *fromLayer, CALayer *toLayer) {
         toLayer.frame = CGRectOffset(toLayer.frame, toLayer.frame.size.width, 0.0f);
     } animations:^(CALayer *fromLayer, CALayer *toLayer) {
