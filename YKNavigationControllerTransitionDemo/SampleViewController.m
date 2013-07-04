@@ -7,7 +7,7 @@
 //
 
 #import "SampleViewController.h"
-#import "UINavigationController+Transform.h"
+#import "YKNavigationControllerTransition.h"
 
 @interface SampleViewController ()
 
@@ -70,6 +70,7 @@
 
 - (void)push {
     SampleViewController *vc = [[SampleViewController alloc] initWithDepth:_depth+1];
+    /*
     [self.navigationController pushViewController:vc duration:0.3f preparations:^(CALayer *fromLayer, CALayer *toLayer) {
         toLayer.frame = CGRectOffset(toLayer.frame, toLayer.frame.size.width, 0.0f);
     } animations:^(CALayer *fromLayer, CALayer *toLayer) {
@@ -79,9 +80,15 @@
     } completions:^(CALayer *fromLayer, CALayer *toLayer) {
         //
     }];
+    */
+    [self.navigationController pushViewController:vc
+                                         duration:0.3f
+                              fromTransitionStyle:YKNavigationControllerTransitionStyleSlideOutLeft
+                                toTransitionStyle:YKNavigationControllerTransitionStyleSlideInRight];
 }
 
 - (void)pop {
+    /*
     [self.navigationController popViewControllerWithDuration:0.3f preparations:^(CALayer *fromLayer, CALayer *toLayer) {
         toLayer.transform = CATransform3DMakeScale(0.9f, 0.9f, 1.0f);
         toLayer.opacity = 0.0f;
@@ -92,6 +99,10 @@
     } completions:^(CALayer *fromLayer, CALayer *toLayer) {
         //
     }];
+    */
+    [self.navigationController popViewControllerWithDuration:0.3f
+                                         fromTransitionStyle:YKNavigationControllerTransitionStyleSlideOutLeft
+                                           toTransitionStyle:YKNavigationControllerTransitionStyleRotateInRight];
 }
 
 @end

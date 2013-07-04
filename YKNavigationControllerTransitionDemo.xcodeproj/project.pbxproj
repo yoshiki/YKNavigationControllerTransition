@@ -16,31 +16,32 @@
 		FC96627417828920001878A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC96627317828920001878A0 /* Default.png */; };
 		FC96627617828920001878A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC96627517828920001878A0 /* Default@2x.png */; };
 		FC96627817828920001878A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC96627717828920001878A0 /* Default-568h@2x.png */; };
-		FC9662811782894D001878A0 /* UINavigationController+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9662801782894D001878A0 /* UINavigationController+Transform.m */; };
+		FC9662811782894D001878A0 /* UINavigationController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9662801782894D001878A0 /* UINavigationController+Transition.m */; };
 		FC966284178289D2001878A0 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC966283178289D2001878A0 /* SampleViewController.m */; };
 		FC96628817828B41001878A0 /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC96628717828B41001878A0 /* image@2x.png */; };
 		FC96628A17828DEC001878A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96628917828DEB001878A0 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC96625E17828920001878A0 /* UINavigationControllerTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationControllerTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC798B9817850BC000A353F2 /* YKNavigationControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNavigationControllerTransition.h; sourceTree = "<group>"; };
+		FC96625E17828920001878A0 /* YKNavigationControllerTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKNavigationControllerTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC96626117828920001878A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC96626317828920001878A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC96626517828920001878A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FC96626917828920001878A0 /* UINavigationControllerTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavigationControllerTransitionDemo-Info.plist"; sourceTree = "<group>"; };
+		FC96626917828920001878A0 /* YKNavigationControllerTransitionDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YKNavigationControllerTransitionDemo-Info.plist"; sourceTree = "<group>"; };
 		FC96626B17828920001878A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC96626D17828920001878A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC96626F17828920001878A0 /* UINavigationControllerTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationControllerTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FC96626F17828920001878A0 /* YKNavigationControllerTransitionDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YKNavigationControllerTransitionDemo-Prefix.pch"; sourceTree = "<group>"; };
 		FC96627017828920001878A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC96627117828920001878A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FC96627317828920001878A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FC96627517828920001878A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FC96627717828920001878A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FC96627F1782894D001878A0 /* UINavigationController+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Transform.h"; path = "UINavigationController+Transform/UINavigationController+Transform.h"; sourceTree = "<group>"; };
-		FC9662801782894D001878A0 /* UINavigationController+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Transform.m"; path = "UINavigationController+Transform/UINavigationController+Transform.m"; sourceTree = "<group>"; };
+		FC96627F1782894D001878A0 /* UINavigationController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UINavigationController+Transition.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FC9662801782894D001878A0 /* UINavigationController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UINavigationController+Transition.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		FC966282178289D2001878A0 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
-		FC966283178289D2001878A0 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
-		FC96628717828B41001878A0 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image@2x.png"; path = "UINavigationControllerTransitionDemo/image@2x.png"; sourceTree = SOURCE_ROOT; };
+		FC966283178289D2001878A0 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SampleViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		FC96628717828B41001878A0 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image@2x.png"; path = "YKNavigationControllerTransitionDemo/image@2x.png"; sourceTree = SOURCE_ROOT; };
 		FC96628917828DEB001878A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,8 +63,8 @@
 		FC96625517828920001878A0 = {
 			isa = PBXGroup;
 			children = (
-				FC96627E17828927001878A0 /* UINavigationController+Transform */,
-				FC96626717828920001878A0 /* UINavigationControllerTransitionDemo */,
+				FC96627E17828927001878A0 /* YKNavigationControllerTransition */,
+				FC96626717828920001878A0 /* YKNavigationControllerTransitionDemo */,
 				FC96626017828920001878A0 /* Frameworks */,
 				FC96625F17828920001878A0 /* Products */,
 			);
@@ -72,7 +73,7 @@
 		FC96625F17828920001878A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC96625E17828920001878A0 /* UINavigationControllerTransitionDemo.app */,
+				FC96625E17828920001878A0 /* YKNavigationControllerTransitionDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,7 +89,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FC96626717828920001878A0 /* UINavigationControllerTransitionDemo */ = {
+		FC96626717828920001878A0 /* YKNavigationControllerTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
 				FC96627017828920001878A0 /* AppDelegate.h */,
@@ -97,17 +98,17 @@
 				FC966283178289D2001878A0 /* SampleViewController.m */,
 				FC96626817828920001878A0 /* Supporting Files */,
 			);
-			path = UINavigationControllerTransitionDemo;
+			path = YKNavigationControllerTransitionDemo;
 			sourceTree = "<group>";
 		};
 		FC96626817828920001878A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				FC96628717828B41001878A0 /* image@2x.png */,
-				FC96626917828920001878A0 /* UINavigationControllerTransitionDemo-Info.plist */,
+				FC96626917828920001878A0 /* YKNavigationControllerTransitionDemo-Info.plist */,
 				FC96626A17828920001878A0 /* InfoPlist.strings */,
 				FC96626D17828920001878A0 /* main.m */,
-				FC96626F17828920001878A0 /* UINavigationControllerTransitionDemo-Prefix.pch */,
+				FC96626F17828920001878A0 /* YKNavigationControllerTransitionDemo-Prefix.pch */,
 				FC96627317828920001878A0 /* Default.png */,
 				FC96627517828920001878A0 /* Default@2x.png */,
 				FC96627717828920001878A0 /* Default-568h@2x.png */,
@@ -115,21 +116,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FC96627E17828927001878A0 /* UINavigationController+Transform */ = {
+		FC96627E17828927001878A0 /* YKNavigationControllerTransition */ = {
 			isa = PBXGroup;
 			children = (
-				FC96627F1782894D001878A0 /* UINavigationController+Transform.h */,
-				FC9662801782894D001878A0 /* UINavigationController+Transform.m */,
+				FC96627F1782894D001878A0 /* UINavigationController+Transition.h */,
+				FC9662801782894D001878A0 /* UINavigationController+Transition.m */,
+				FC798B9817850BC000A353F2 /* YKNavigationControllerTransition.h */,
 			);
-			name = "UINavigationController+Transform";
+			path = YKNavigationControllerTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC96625D17828920001878A0 /* UINavigationControllerTransitionDemo */ = {
+		FC96625D17828920001878A0 /* YKNavigationControllerTransitionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC96627B17828920001878A0 /* Build configuration list for PBXNativeTarget "UINavigationControllerTransitionDemo" */;
+			buildConfigurationList = FC96627B17828920001878A0 /* Build configuration list for PBXNativeTarget "YKNavigationControllerTransitionDemo" */;
 			buildPhases = (
 				FC96625A17828920001878A0 /* Sources */,
 				FC96625B17828920001878A0 /* Frameworks */,
@@ -139,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = UINavigationControllerTransitionDemo;
+			name = YKNavigationControllerTransitionDemo;
 			productName = UINavigationControllerTransitionDemo;
-			productReference = FC96625E17828920001878A0 /* UINavigationControllerTransitionDemo.app */;
+			productReference = FC96625E17828920001878A0 /* YKNavigationControllerTransitionDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +155,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Yoshiki Kurihara";
 			};
-			buildConfigurationList = FC96625917828920001878A0 /* Build configuration list for PBXProject "UINavigationControllerTransitionDemo" */;
+			buildConfigurationList = FC96625917828920001878A0 /* Build configuration list for PBXProject "YKNavigationControllerTransitionDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC96625D17828920001878A0 /* UINavigationControllerTransitionDemo */,
+				FC96625D17828920001878A0 /* YKNavigationControllerTransitionDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -192,7 +194,7 @@
 			files = (
 				FC96626E17828920001878A0 /* main.m in Sources */,
 				FC96627217828920001878A0 /* AppDelegate.m in Sources */,
-				FC9662811782894D001878A0 /* UINavigationController+Transform.m in Sources */,
+				FC9662811782894D001878A0 /* UINavigationController+Transition.m in Sources */,
 				FC966284178289D2001878A0 /* SampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,10 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UINavigationControllerTransitionDemo/UINavigationControllerTransitionDemo-Prefix.pch";
-				INFOPLIST_FILE = "UINavigationControllerTransitionDemo/UINavigationControllerTransitionDemo-Info.plist";
+				GCC_PREFIX_HEADER = "YKNavigationControllerTransitionDemo/YKNavigationControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YKNavigationControllerTransitionDemo/YKNavigationControllerTransitionDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YKNavigationControllerTransitionDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,10 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UINavigationControllerTransitionDemo/UINavigationControllerTransitionDemo-Prefix.pch";
-				INFOPLIST_FILE = "UINavigationControllerTransitionDemo/UINavigationControllerTransitionDemo-Info.plist";
+				GCC_PREFIX_HEADER = "YKNavigationControllerTransitionDemo/YKNavigationControllerTransitionDemo-Prefix.pch";
+				INFOPLIST_FILE = "YKNavigationControllerTransitionDemo/YKNavigationControllerTransitionDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YKNavigationControllerTransitionDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -294,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC96625917828920001878A0 /* Build configuration list for PBXProject "UINavigationControllerTransitionDemo" */ = {
+		FC96625917828920001878A0 /* Build configuration list for PBXProject "YKNavigationControllerTransitionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC96627917828920001878A0 /* Debug */,
@@ -303,7 +305,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC96627B17828920001878A0 /* Build configuration list for PBXNativeTarget "UINavigationControllerTransitionDemo" */ = {
+		FC96627B17828920001878A0 /* Build configuration list for PBXNativeTarget "YKNavigationControllerTransitionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC96627C17828920001878A0 /* Debug */,
