@@ -63,7 +63,8 @@ or
     [self.navigationController popViewControllerWithDuration:0.3f
                                          fromTransitionStyle:YKNavigationControllerTransitionStyleSlideOutRight
                                            toTransitionStyle:YKNavigationControllerTransitionStyleSlideInLeft];
-i```
+```
+
 # License #
 
 UINavigationController+Transition is available under the MIT License.
