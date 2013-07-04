@@ -1,4 +1,4 @@
-UINavigationController+Transition
+YKNavigationControllerTransition
 ==========
 
 # Features #
@@ -11,12 +11,12 @@ UINavigationController+Transition
 
 # ARC #
 
-UINavigationController+Transition uses ARC.
+YKNavigationControllerTransition uses ARC.
 
 # Instration #
 
-- Copy UINavigationController+Transition/ directory to your project.
-- Import "UINavigationController+Transition.h" wherever you need it.
+- Copy YKNavigationControllerTransition/ directory to your project.
+- Import "YKNavigationControllerTransition.h" wherever you need it.
 
 # Usage #
 
@@ -33,6 +33,15 @@ UINavigationController+Transition uses ARC.
     }];
 ```
 
+or
+
+``` objective-c
+    [self.navigationController pushViewController:vc
+                                         duration:0.3f
+                              fromTransitionStyle:YKNavigationControllerTransitionStyleSlideOutLeft
+                                toTransitionStyle:YKNavigationControllerTransitionStyleSlideInRight];
+```
+
 - Pop view controller
 ``` objective-c
     [self.navigationController popViewControllerWithDuration:0.3f preparations:^(CALayer *fromLayer, CALayer *toLayer) {
@@ -46,7 +55,13 @@ UINavigationController+Transition uses ARC.
         //
     }];
 ```
+or
 
+``` objective-c
+    [self.navigationController popViewControllerWithDuration:0.3f
+                                         fromTransitionStyle:YKNavigationControllerTransitionStyleSlideOutRight
+                                           toTransitionStyle:YKNavigationControllerTransitionStyleSlideInLeft];
+i```
 # License #
 
 UINavigationController+Transition is available under the MIT License.
