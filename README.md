@@ -1,6 +1,8 @@
 YKNavigationControllerTransition
 ==========
 
+![Movie](movie.gif)
+
 # Features #
 
 - Customization push/pop transition of UINavigationController.
