@@ -65,6 +65,26 @@ or
                                            toTransitionStyle:YKNavigationControllerTransitionStyleSlideInLeft];
 ```
 
+# Transition styles #
+
+- YKNavigationControllerTransitionStyleIdentity
+- YKNavigationControllerTransitionStyleFadeInBack
+- YKNavigationControllerTransitionStyleFadeInFront
+- YKNavigationControllerTransitionStyleFadeOutBack
+- YKNavigationControllerTransitionStyleFadeOutFront
+- YKNavigationControllerTransitionStyleSlideOutRight
+- YKNavigationControllerTransitionStyleSlideOutLeft
+- YKNavigationControllerTransitionStyleSlideOutTop
+- YKNavigationControllerTransitionStyleSlideOutBottom
+- YKNavigationControllerTransitionStyleSlideInRight
+- YKNavigationControllerTransitionStyleSlideInLeft
+- YKNavigationControllerTransitionStyleSlideInTop
+- YKNavigationControllerTransitionStyleSlideInBottom
+- YKNavigationControllerTransitionStyleRotateOutLeft
+- YKNavigationControllerTransitionStyleRotateOutRight
+- YKNavigationControllerTransitionStyleRotateInLeft
+- YKNavigationControllerTransitionStyleRotateInRight
+
 # License #
 
 UINavigationController+Transition is available under the MIT License.
