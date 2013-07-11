@@ -89,7 +89,7 @@ or
 
 # License #
 
-UINavigationController+Transition is available under the MIT License.
+YKNavigationControllerTransition is available under the MIT License.
 
 Copyright (c) 2013 Yoshiki Kurihara
 
